@@ -1,0 +1,18 @@
+# data (obtain separately, see DATA.md)
+malimg/
+malimg_all/
+isic_folder/
+data/
+# environment
+venv/
+__pycache__/
+.DS_Store
+# raw run outputs: examples.pt holds dataset image pixels, which are not redistributable
+out_*/
+*.log
+figures/
+slides_images/
+# published results (results.json copies, derived tables) are tracked
+!results/
+# figure script that embeds ISIC image ids, kept out of the public repo
+isic_example_ids.py
